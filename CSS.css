@@ -1,0 +1,47 @@
+body {
+  background-color: none;
+  text-align : justify;
+}
+h1{
+  text-align :center;
+}
+a {
+	color: #1E90FF;
+}
+a:hover {
+	color: #3B5998;
+}
+nav {
+	background-color:#33FF49;
+	display: flex;
+	justify-content: center;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+nav a:hover, nav a.active {
+	color: white;
+	background-color:#33FF49;
+}
+header, footer{
+	text-align: center;
+}
+.background {
+  background-image: url(img/fond_aquaponie.jpg);
+  background-position: center;
+}
+footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+  border-top: 1px solid #33FF49;
+}
+footer a {
+	color: #EC5B5D;
+}
